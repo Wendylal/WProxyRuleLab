@@ -1,0 +1,33 @@
+# 规则类别：Apple Music
+# 规则统计：15
+# 适用平台：Surge
+# 用途：Apple Music（美区订阅）核心接口 / 媒体 / CDN 分流到 AppleMusic 策略组
+# 使用说明：
+# 1) 主配置中需存在策略组：AppleMusic（建议默认选 USA）
+# 2) 本规则集必须放在 ChinaDomain / UnBan / apple_cn / GEOIP CN 之前
+# 3) 当前包含少量宽覆盖 CDN 规则（用于稳定命中），后续可按日志收窄
+
+# ===== Apple Music Frontend / API =====
+DOMAIN-SUFFIX,music.apple.com
+DOMAIN,amp-api.music.apple.com
+DOMAIN,api.music.apple.com
+
+# ===== iTunes / Apple Music Core =====
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,itunes-apple.com
+DOMAIN,mvod.itunes.apple.com
+DOMAIN,fpinit.itunes.apple.com
+
+# ===== Apple Media / Static Assets =====
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN,aod.itunes.g.aaplimg.com
+
+# ===== Apple Music CDN（日志已确认） =====
+DOMAIN,bag-cdn.itunes-apple.com.akadns.net
+DOMAIN-SUFFIX,edge-itunes-apple.com.akadns.net
+
+# ===== Broad CDN Coverage（稳定阶段保留） =====
+DOMAIN-SUFFIX,akadns.net
+DOMAIN-SUFFIX,ks-cdn.com
+DOMAIN-SUFFIX,alikunlun.com
