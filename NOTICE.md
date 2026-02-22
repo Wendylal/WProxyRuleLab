@@ -7,7 +7,7 @@
 
 ## 1) 仓库内容范围
 
-WProxyRuleLab 仅维护两类交付物：
+Bridge 仅维护两类交付物：
 
 - Surge / Loon 的配置模板（Configs）
 - Surge / Loon 的规则文件（Rules）
