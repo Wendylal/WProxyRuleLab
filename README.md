@@ -3,7 +3,7 @@
   <img src="https://img.shields.io/github/stars/Bluetrae/Bridge?style=flat-square&logo=github&label=Stars&color=f59e0b" alt="Stars" />
 </p>
 
-# Bridge 🧭
+# Bridge 🐿️
 
 面向 **Surge / Loon** 的配置、规则与相关资源仓库。
 
@@ -98,7 +98,7 @@
 
 <a id="thanks"></a>
 <details>
-<summary>🙏 特别感谢（参考项目）</summary>
+<summary>🧸 特别感谢（参考项目）</summary>
 
 > 感谢以下项目为本仓库的设计、配置思路和规则整理提供了宝贵的启发和参考（排名不分先后）。
 
