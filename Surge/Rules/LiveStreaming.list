@@ -1,5 +1,10 @@
-# 规则名称: garyshare 直播源
-# 规则统计: 26 (DOMAIN: 17, DOMAIN-SUFFIX: 4, IP-CIDR: 5)
+# 规则类别：Streaming
+# 规则名称：garyshare 直播源
+# 规则统计：26 (DOMAIN: 17, DOMAIN-SUFFIX: 4, IP-CIDR: 5)
+# 更新时间：2026-02-22
+# 适用工具：Surge / Loon
+# 维护仓库：Bluetrae/Bridge
+# tips：此为自用直播源频道域名 不推荐未有直播源订阅的用户使用
 
 # ==== Live Rules (all, no policy group) ====
 
