@@ -1,10 +1,13 @@
 # 规则类别：Apple Music
+# 规则名称：Apple Music 美区订阅
 # 规则统计：15
-# 适用平台：Surge
+# 更新时间：2026-02-22
+# 适用工具：Surge / Loon
+# 维护仓库：Bluetrae/Bridge
 # 用途：Apple Music（美区订阅）核心接口 / 媒体 / CDN 分流到 AppleMusic 策略组
 # 使用说明：
 # 1) 主配置中需存在策略组：AppleMusic（建议默认选 USA）
-# 2) 本规则集必须放在 ChinaDomain / UnBan / apple_cn / GEOIP CN 之前
+# 2) 本规则集必须放在 ChinaDomain / UnBan / apple_cn / GEOIP CN 这类默认直连规则之前
 # 3) 当前包含少量宽覆盖 CDN 规则（用于稳定命中），后续可按日志收窄
 
 # ===== Apple Music Frontend / API =====
@@ -23,11 +26,11 @@ DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN,aod.itunes.g.aaplimg.com
 
-# ===== Apple Music CDN（日志已确认） =====
+# ===== Apple Music CDN =====
 DOMAIN,bag-cdn.itunes-apple.com.akadns.net
 DOMAIN-SUFFIX,edge-itunes-apple.com.akadns.net
 
-# ===== Broad CDN Coverage（稳定阶段保留） =====
+# ===== Broad CDN Coverage =====
 DOMAIN-SUFFIX,akadns.net
 DOMAIN-SUFFIX,ks-cdn.com
 DOMAIN-SUFFIX,alikunlun.com
