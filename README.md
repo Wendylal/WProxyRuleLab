@@ -7,8 +7,8 @@
 
 面向 **Surge / Loon** 的配置、规则与相关资源仓库。
 
-> 📌 使用前请先阅读：[`DISCLAIMER.md`](./DISCLAIMER.md)  
-> 🧾 版权与引用说明：[`LICENSE`](./LICENSE) · [`NOTICE.md`](./NOTICE.md)
+> 📌 使用前请先阅读：[`DISCLAIMER.md`](./Docs/DISCLAIMER.md)   
+> 🧾 版权与引用说明：[`LICENSE`](./Docs/LICENSE) · [`NOTICE.md`](./Docs/NOTICE.md)
 
 ---
 
@@ -53,8 +53,8 @@
 ## 使用方式（最小路径）
 
 1. 进入对应工具目录（`Surge/` 或 `Loon/`）
-2. 在 `Configs/` 中选择配置模板（例如 `Base.conf`）
-3. 在 `Rules/` 中选择需要的规则文件（Ads / Streaming / Social）
+2. 在 `Configs/` 中选择配置模板（例如 `Surge.conf`）
+3. 在 `Rules/` 中选择需要的规则文件（ `AppleMusic.list`）
 4. 导入后按你的实际使用场景逐步验证，避免一次性改动过多
 
 ---
@@ -134,7 +134,7 @@
 
 - 未经许可：禁止转载、搬运、镜像、二次发布（尤其国内平台）
 - 未经许可：禁止用于商业用途
-- 详细条款请阅读：[`DISCLAIMER.md`](./DISCLAIMER.md) / [`NOTICE.md`](./NOTICE.md)
+- 详细条款请阅读：[`DISCLAIMER.md`](./Docs/DISCLAIMER.md)  /[`NOTICE.md`](./Docs/NOTICE.md)
 
 ---
 
