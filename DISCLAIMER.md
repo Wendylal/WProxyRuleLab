@@ -1,6 +1,6 @@
 # DISCLAIMER｜使用声明与风险提示
 
-本仓库（WProxyRuleLab）仅提供 **Surge / Loon** 的 **Configs（配置模板）** 与 **Rules（规则文件）**。  
+本仓库（Bridge）仅提供 **Surge / Loon** 的 **Configs（配置模板）** 与 **Rules（规则文件）**。  
 你一旦访问、下载、复制、引用或使用本仓库任意内容，即表示你已阅读并接受本声明。
 
 ---
